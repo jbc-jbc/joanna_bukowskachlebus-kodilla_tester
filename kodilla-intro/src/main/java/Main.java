@@ -6,5 +6,11 @@ public class Main {
         char carClass = 'A';
         boolean isGoodProgrammer = true;
         System.out.println(myName);
+        String message = "Hello from FirstClass!";
+        System.out.println(message);
+        System.out.println(myAge);
+        System.out.println(height);
+        System.out.println(carClass);
+        System.out.println(true);
     }
 }
