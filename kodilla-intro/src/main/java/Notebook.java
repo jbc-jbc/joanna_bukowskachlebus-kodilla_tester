@@ -38,14 +38,9 @@ public class Notebook {
     public void checkPriceAndYear() {
         if (this.price > 1000 && this.year >2020) {
             System.out.println("Good choice");
-        } else if (this.price >= 1000 && this.year) {
-            
+        } else if (this.price >= 1000 && this.year <2019) {
+            System.out.println("Bad choice");
         }
-    } else if (this.year <= 2020) {
-        System.out.println("This notebook is old.");
-    } else {
-        System.out.println("This notebook is modern.");
-}
-   
-        
+
+    }
 }
